@@ -1,18 +1,18 @@
 :root{
-    --cor1: 1781e5;
-    --cor2: 212e87;
-    --cor3: ffc732;
+    --cor1: #1781e5;
+    --cor2: #212e87;
+    --cor3: #ffc732;
 }
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
   }
 
   header {
-    background-color: #007bff;
+    background-image: linear-gradient(to right,#1781e5 30%, #ffc732  10%);
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -30,7 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
+    background-color: #ecece873;
     border-radius: 5px;
     margin-bottom: 20px;
     padding: 20px;
@@ -58,4 +58,23 @@ body {
     text-decoration: none;
     cursor: pointer;
     border-radius: 5px;
+  }
+  .buy-button:hover{
+    box-sizing: border-box;
+    border:1px white;
+    background-color: var(--cor2);
+  }
+  .sobre{
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .sobre:hover{
+    box-sizing: border-box;
+    background-color: var(--cor2);
+    border:1px white;
   }
